@@ -1,0 +1,16 @@
+azure:
+  search_service_name: "your-search-service-name"
+  search_api_key: "your-api-key"
+  openai_endpoint: "https://your-openai-resource.openai.azure.com/"
+  openai_api_key: "your-openai-api-key"
+  blob_connection_string: "your-blob-connection-string"
+  blob_container_name: "your-container-name"
+
+embedding:
+  model: "text-embedding-ada-002"
+  vector_dimensions: 1536
+
+index:
+  name: "content-index"
+  vector_search_algorithm: "hnsw"
+  semantic_ranking: true
